@@ -1,0 +1,1 @@
+python D:\Anaconda3\Scripts\search_tweets.py --credential-file search_tweets_creds_example.yaml --credential-file-key search_tweets_v2 --max-tweets 10000000 --results-per-call 500 --query "(vaccine) -is:retweet place_country:AU" --start-time 2021-01-01T00:00 --end-time 2021-06-01T00:00 --filename-prefix vaccine --print-stream 
